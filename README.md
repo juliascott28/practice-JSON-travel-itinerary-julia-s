@@ -1,0 +1,11 @@
+- Trip Name: A name for the trip.
+- Traveler:
+  - name: The traveler’s full name.
+  - contact: Includes email and phone.
+- Destinations: Each destination should include:
+  - location: The name of the destination (e.g., "Paris").
+  - arrivalDate: The date of arrival in the format YYYY-MM-DD.
+  - departureDate: The date of departure in the format YYYY-MM-DD.
+  - activities: Each activity should include:
+    - title: The name of the activity.
+    - time: The scheduled time (e.g., "10:00 AM").
