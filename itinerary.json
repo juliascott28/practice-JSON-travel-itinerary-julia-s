@@ -1,0 +1,30 @@
+{
+    "tripName": "Road Trip", 
+    "traveler": {
+        "name": "Julia",
+        "contact": {
+            "email": "julia@scott.com", 
+            "phone": "314-555-5555"
+        }
+    },
+    "destinations": [
+        {
+        "city": "New York",
+        "arrivalDate": "2026-11-27",
+        "departureDate": "2026-12-03",
+        "activities": [
+            {"title": "dinner", "time": "6pm"},
+            {"title": "skating", "time": "8pm"}
+            ]
+        },
+    {
+        "city": "Boston",
+        "arrivalDate": "2026-12-04",
+        "departureDate": "2026-12-10",
+        "activities": [
+            {"title": "museum", "time": "10am"},
+            {"title": "lunch", "time": "1pm"}
+            ]
+        }
+    ]
+}
