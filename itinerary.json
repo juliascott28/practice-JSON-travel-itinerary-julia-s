@@ -12,28 +12,70 @@
         "city": "New York",
         "arrivalDate": "2026-11-27",
         "departureDate": "2026-12-03",
+        "transportation": {
+          "mode": "Car",
+          "cost": 80.00
+        },
         "activities": [
             {"title": "dinner", "time": "6pm"},
             {"title": "skating", "time": "8pm"}
             ]
         },
-    {
+      {
         "city": "Boston",
         "arrivalDate": "2026-12-04",
         "departureDate": "2026-12-10",
-        "activities": [
-            {"title": "museum", "time": "10am"},
-            {"title": "lunch", "time": "1pm"}
-            ]
+        "transportation": {
+          "mode": "Car",
+          "cost": 120.00
         },
-    {
+        "activities": [
+          {
+            "title": "museum",
+            "time": "10am"
+          },
+          {
+            "title": "lunch",
+            "time": "1pm"
+          }
+        ]
+      },
+      {
         "city": "Portland",
         "arrivalDate": "2026-12-11",
         "departureDate": "2026-12-15",
+        "transportation": {
+          "mode": "Car",
+          "cost": 100.00
+        },
         "activities": [
-            {"title": "lighthouse", "time": "11am"},
-            {"title": "Christmas Market", "time": "6pm"}
-            ]
-        }    
+          {
+            "title": "lighthouse",
+            "time": "11am"
+          },
+          {
+            "title": "Christmas Market",
+            "time": "6pm"
+          }
+        ]
+      },
+      {
+        "city": "Fort Meyers",
+        "arrivalDate": "2026-12-20",
+        "departureDate": "2027-01-02",
+        "transportation": {
+          "mode": "Flight",
+          "cost": 300.00
+        },
+        "activities": [
+          {
+            "title": "Beach Walk",
+            "time": "5am"
+          },
+          {
+            "title": "New Years Celebration",
+            "time": "12am"
+          }
+      }
     ]
 }
