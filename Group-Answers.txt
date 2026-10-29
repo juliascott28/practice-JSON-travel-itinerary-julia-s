@@ -1,0 +1,16 @@
+By Bradley S
+
+Nesting:
+	Contact information is split into email and phone objects and kept with the traveler's name, and allows users (staff) to know how to contact a specific person.
+
+Arrays:
+	Destinations and Activities both used an array to keep track of data, making it easy to index the contents.
+
+Scalability:
+	Adding new information would be as easy as adding a new key-value pair to the relevant object: "Hotel Information" would be found in the "Destinations" object.
+
+Real-World Applications:
+	Would be handy to keep travelers and travel organizers ... organized, helping them stay on schedule and remember their activites.
+
+Additions:
+	Adding the method of transportation and it's cost will help travelers plan their budget for their trip and remember how they are getting from place to place
